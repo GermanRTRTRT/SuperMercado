@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super</title>
+</head>
+<body>
+
+	<script>
+
+		function calculo_total()
+		{
+         var p1=parseFloat(document.getElementById('precio1').value);
+         var c1=parseFloat(document.getElementById('cantidad1').value);
+
+         var p2=parseFloat(document.getElementById('precio2').value);
+         var c2=parseFloat(document.getElementById('cantidad2').value);
+
+         var p3=parseFloat(document.getElementById('precio3').value);
+         var c3=parseFloat(document.getElementById('cantidad3').value);
+
+         var p4=parseFloat(document.getElementById('precio4').value);
+         var c4=parseFloat(document.getElementById('cantidad4').value);
+
+         var p5=parseFloat(document.getElementById('precio5').value);
+         var c5=parseFloat(document.getElementById('cantidad5').value);
+
+         var p6=parseFloat(document.getElementById('precio6').value);
+         var c6=parseFloat(document.getElementById('cantidad6').value);
+
+         var p7=parseFloat(document.getElementById('precio7').value);
+         var c7=parseFloat(document.getElementById('cantidad7').value);
+
+         var p8=parseFloat(document.getElementById('precio8').value);
+         var c8=parseFloat(document.getElementById('cantidad8').value);
+
+         ver total=(p1*c1)+p2*c2+p3*c3+p4*c4+p5*c5+p6*c6+p7*c7+p8*c8;
+
+         alert("El total de la compra es:"+total);
+         document.getElementById("imprimir").innerHTML="El total de la compra es:"+total;
+		}
+		
+		</script>
+
+
+
+		<font size="3" face="courier" color="#E97017">
+		<h1 align="center"><big><b>SuperMercado la ratita</b></big></h1>
+		<img src="img/rata.jpg">
+	    </div>
+
+	    <center>
+	    </body>
+	    <table border="6px solid black" style="margin:1 auto;">
+	    <tr>
+	    <td>
+	    	<a href="Monster.html"><center>
+	    	<img src="img/monster.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Monster Zero Ultra</b></h5>
+	        <h5 align="center"><b>$40</b></h5>
+	 precio:<input type="text" id="precio1" value="0"><br>
+   cantidad:<input type="text" id="cantidad1" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Claras.html"><center>
+	    	<img src="img/claras.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Claras de Huevo</b></h5>
+	        <h5 align="center"><b>$30</b></h5>
+	 precio:<input type="text" id="precio2" value="0"><br>
+   cantidad:<input type="text" id="cantidad2" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Atun.html"><center>
+	    	<img src="img/atun.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Atun Marina Azul</b></h5>
+	        <h5 align="center"><b>$25</b></h5>
+	 precio:<input type="text" id="precio3" value="0"><br>
+   cantidad:<input type="text" id="cantidad3" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Leche.html"><center>
+	    	<img src="img/leche.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Leche Lala 100 light</b></h5>
+	        <h5 align="center"><b>$43</b></h5>
+	 precio:<input type="text" id="precio4" value="0"><br>
+   cantidad:<input type="text" id="cantidad4" value="0"><br>
+        </td></tr>
+
+        <tr><td>
+	    	<a href="Epura.html"><center>
+	    	<img src="img/epura.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>e-pura</b></h5>
+	        <h5 align="center"><b>$15</b></h5>
+	 precio:<input type="text" id="precio5" value="0"><br>
+   cantidad:<input type="text" id="cantidad5" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Cocacola.html"><center>
+	    	<img src="img/cocacola.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Coca-Cola</b></h5>
+	        <h5 align="center"><b>$20</b></h5>
+	 precio:<input type="text" id="precio6" value="0"><br>
+   cantidad:<input type="text" id="cantidad6" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Emperador.html"><center>
+	    	<img src="img/emperador.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Emperador Gamesa</b></h5>
+	        <h5 align="center"><b>$25</b></h5>
+	 precio:<input type="text" id="precio7" value="0"><br>
+   cantidad:<input type="text" id="cantidad7" value="0"><br>
+        </td>
+
+        <td>
+	    	<a href="Lechuga.html"><center>
+	    	<img src="img/lechuga.jpg" width="200" height="250"/>
+	        </a><br>
+	        <h5 align="center"><b>Lechuga Romana</b></h5>
+	        <h5 align="center"><b>$17</b></h5>
+	 precio:<input type="text" id="precio8" value="0"><br>
+   cantidad:<input type="text" id="cantidad8" value="0"><br>
+        </td>
+        </tr></td>
+
+       </table>
+
+
+       <input type="button" name="suma" value="Obtener Total" onclick="calculo_total()"><br>
+       <p id="imprimir"></p>
+       <h3 align="center"><p align="right"><b>MSI ALONDRA ZAVALA - CBTIS 206 - 2025</b></p></h3>
+
+        
+
+
+
+
+
+
+
+
+
+
+	
+</center>
+</body>
+</html>
